@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JenkinTestApplication {
 
-	private Logger logger = LoggerFactory.getLogger(JenkinTestApplication.class);
+	private Logger logge = LoggerFactory.getLogger(JenkinTestApplication.class);
 	@PostConstruct
 	public void init() {
 		logger.info("SpringBoot Application started--------->>>>>>");
